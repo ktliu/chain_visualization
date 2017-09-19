@@ -40,8 +40,8 @@ class ChainVisualization:
 		self.G.add_node(J_token, color='orange', style='filled')
 		self.validators[J_token] = J_token
  
- 	def draw_slash_double_prepare(self):
- 		return
+	def draw_slash_double_prepare(self):
+		return
 	      
 	# For visualization
 	def saveToDotGraph(self, filename):
